@@ -3,13 +3,19 @@
 Provide some details about your application 
 
 ## How to start?
-`Section description:  What should be done before application start(e.g db migration)`
+- From UrlShortener.WebApplication/src/app folder run npm install
+- From UrlShortener.WebApplication/src/app folder run npm start
+- Go to the localhost:3000
+- Run the UrlShortener.WebApplication
+- enjoy
+
 ## Key assumptions 
-`Section description: If you have any assumption during your implementation, please provide them here.`
+- best way to log request would be by kafka
 
 ## Future Ideas
-`Section description:  If you haven't enough time to implement some feature or ideas, please provide them here.`
-
+- check if there is already given URL
+- real database so it can store all URLs
+- user account
 
 ## Task Description 
 >Build a URL shortening service like TinyURL. This service will provide short aliases redirecting to long URLs.
